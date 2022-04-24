@@ -75,11 +75,7 @@ int main(int argc, char** argv)
     
 
     
-    if (!status) // если произошла ошибка загрузки конфига
-    {
-        printf("Error: Load config failed\n");
-        return -1;
-    }
+
     
     // создаем потомка
     pid = fork();
